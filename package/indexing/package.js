@@ -9,7 +9,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.use([
     'aldeed:collection2@3.0.3',
-    'ecmascript@0.12.7',
+    'ecmascript',
   ]);
 
   api.mainModule('client.js', 'client');
